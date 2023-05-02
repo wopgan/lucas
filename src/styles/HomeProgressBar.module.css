@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  padding: 15px;
+}
+
+.titleBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+
+.titleBar img {
+  height: 100%;
+}
+
+.progressContainer {
+  width: 100%;
+  background-color: #eaecfb;
+  height: 4px;
+  border-radius: 2px;
+  margin: 20px 0;
+}
+
+.progress {
+  background-color: #344cab;
+  height: 100%;
+  border-radius: 2px;
+}

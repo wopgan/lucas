@@ -1,0 +1,27 @@
+.continueButton {
+  align-self: center;
+  background-color: #445fc2;
+  color: white;
+  margin: 30px;
+  width: 380px;
+  height: 55px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+  cursor: pointer;
+  user-select: none;
+}
+
+.continueButton:hover {
+  background-color: #6178cb;
+}
+
+@media (max-width: 390px) {
+  .continueButton {
+    width: 85vw;
+  }
+}

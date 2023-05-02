@@ -1,0 +1,69 @@
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+  width: 90%;
+  font-weight: bold;
+  color: #02134f;
+  border: 1px solid #b9bdd8;
+  height: 80px;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.options img {
+  height: 100%;
+}
+
+.optionsActive {
+  border: none;
+  color: white;
+  background-color: #0aa59b;
+}
+
+.continueButton {
+  background-color: #445fc2;
+  color: white;
+  margin: 30px;
+  width: 380px;
+  height: 55px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+  cursor: pointer;
+  user-select: none;
+}
+
+.continueButtonDisabled {
+  background-color: #c8cfed;
+  color: #929ec8;
+  margin: 30px;
+  width: 380px;
+  height: 55px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+  pointer-events: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+@media (max-width: 390px) {
+  .continueButton,
+  .continueButtonDisabled {
+    width: 85vw;
+  }
+}
