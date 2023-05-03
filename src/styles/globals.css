@@ -29,6 +29,70 @@ li {
   text-align: justify;
 }
 
+/* Página inicial */
+
+.header {
+  height: 50px;
+  margin: 10px;
+}
+
+.index-container {
+  width: 90vw;
+  color: #536cb0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.index-container h1,
+h2 {
+  color: #02134f;
+}
+
+.header img {
+  height: 100%;
+  margin: 10px;
+}
+
+.carla-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.carla-img {
+  max-width: 450px;
+}
+
+.carla-img img {
+  width: 100%;
+}
+
+.carla-col {
+  max-width: 450px;
+}
+
+.carla-depoimento {
+  max-width: 700px;
+}
+
+/* Página de depoimento */
+
+.depoimento {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.depoimento img {
+  width: 100%;
+}
+
 /* Página de resultado */
 
 .header-resultado {
@@ -41,6 +105,57 @@ li {
   height: 100%;
 }
 
+.main-resultado {
+  max-width: 800px;
+}
+
+.main-resultado h1 {
+  color: #02134f;
+}
+
+.main-resultado h2 {
+  color: #536cb0;
+}
+
+.grafico {
+  width: 100%;
+}
+
+.fato {
+  width: 100%;
+  max-width: 500px;
+  font-size: 13px;
+}
+
+.data {
+  width: 100%;
+  max-width: 500px;
+}
+
+.data img {
+  height: 100%;
+}
+
+.data-idade,
+.data-outros {
+  height: 50px;
+  line-height: 2px;
+}
+
+.semanas {
+  width: 100%;
+  text-align: center;
+  color: #536cb0;
+}
+
+.recomendacoes {
+  width: 100%;
+  max-width: 500px;
+}
+
+.recomendacões img {
+  height: 100%;
+}
 /* Página imc */
 
 .header-final-screen {

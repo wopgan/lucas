@@ -13,7 +13,7 @@ const CorpoDesejado = () => {
   }, []);
 
   useEffect(() => {
-    if (gender === "Masculino") {
+    if (gender === "Perda de Peso Para Homens") {
       setData([
         { data: "Magro", img: "images/target-body/male/male-lean.webp" },
         {

@@ -5,7 +5,7 @@ import ContinueButton from "@/components/ContinueButton";
 const DietaAntiInflamatoria = () => {
   return (
     <ProtectedPageWrapper>
-      <ProgressBar progress="9%" />
+      <ProgressBar progress="4.5%" />
       <main className="main-container">
         <h1 className="fw-bold my-3">O que é uma dieta anti-inflamatória?</h1>
         <p>
@@ -25,7 +25,7 @@ const DietaAntiInflamatoria = () => {
           <li>Sono melhorado</li>
           <li>Rejuvenescimento</li>
         </ul>
-        <ContinueButton nextPage="/genero" />
+        <ContinueButton nextPage="/familiarizado" />
       </main>
     </ProtectedPageWrapper>
   );

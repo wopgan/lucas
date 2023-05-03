@@ -7,7 +7,7 @@ function ProtectedPageWrapper({ children }) {
   const pages = [
     "/",
     "/dieta_anti-inflamatoria",
-    "/genero",
+    "/familiarizado",
     "/corpo_atual",
     "/corpo_desejado",
     "/sintomas",
@@ -29,7 +29,6 @@ function ProtectedPageWrapper({ children }) {
     "/peso",
     "/peso_alvo",
     "/resultado",
-    "/imc",
     "/perca_mais",
   ];
 

@@ -11,6 +11,13 @@ const EnterData = ({ nextPage, keyName, img, measure }) => {
   const { handleSaveData } = useSaveData();
 
   const handleClick = () => {
+    if (
+      localStorage.getItem("peso") &&
+      Number(data) >= Number(JSON.parse(localStorage.getItem("peso")))
+    ) {
+      alert("Você deve informar um valor inferior ao seu peso atual");
+      return;
+    }
     handleSaveData(nextPage, keyName, data);
   };
 
