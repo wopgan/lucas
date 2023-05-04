@@ -25,7 +25,7 @@ const DietaAntiInflamatoria = () => {
           <li>Sono melhorado</li>
           <li>Rejuvenescimento</li>
         </ul>
-        <ContinueButton nextPage="/familiarizado" />
+        <ContinueButton nextPage="/corpo_atual" />
       </main>
     </ProtectedPageWrapper>
   );

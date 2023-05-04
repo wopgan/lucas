@@ -8,7 +8,7 @@ const Depoimento = () => {
       <ProgressBar progress="64%" />
       <main className="main-container">
         <div className="depoimento">
-          <img src="images/depoimento.png" alt="depoimento" className="m-3" />
+          <img src="images/depoimento.jpg" alt="depoimento" className="m-3" />
         </div>
         <h1 className="text-center fw-bold my-3">
           “O plano é superfácil de seguir. Perdi 15 quilos e meu cansaço

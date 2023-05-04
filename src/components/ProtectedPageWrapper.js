@@ -6,8 +6,8 @@ function ProtectedPageWrapper({ children }) {
 
   const pages = [
     "/",
-    "/dieta_anti-inflamatoria",
     "/familiarizado",
+    "/dieta_anti-inflamatoria",
     "/corpo_atual",
     "/corpo_desejado",
     "/sintomas",

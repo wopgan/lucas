@@ -1,0 +1,21 @@
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+  width: 90%;
+  font-weight: bold;
+  color: #02134f;
+  border: 1px solid #b9bdd8;
+  height: 80px;
+
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.options img {
+  height: 100%;
+}

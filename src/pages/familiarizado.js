@@ -17,7 +17,7 @@ const Familiarizado = () => {
           sintomas?
         </h1>
         <SingleChoice
-          nextPage="/corpo_atual"
+          nextPage="/dieta_anti-inflamatoria"
           keyName="conhecimento"
           array={data}
         />

@@ -1,14 +1,11 @@
 import { useEffect } from "react";
-import SingleChoice from "@/components/SingleChoice";
+import useSaveData from "../../hooks/useSaveData";
 
 const Main = () => {
+  const { handleSaveData } = useSaveData();
   const data = [
     { data: "Perda De Peso Para Homens", img: "images/gender/man.png" },
     { data: "Perda De Peso Para Mulheres", img: "images/gender/woman.png" },
-    {
-      data: "Perda De Peso Para Não-Binários",
-      img: "images/gender/rainbow.png",
-    },
   ];
 
   useEffect(() => {
@@ -20,10 +17,10 @@ const Main = () => {
         <img src="images/logo.png" alt="PercaMais" />
       </header>
       <main className="index-container">
-        <h1 className="fw-bold text-center m-4">
+        <h2 className="fw-bold text-center m-4">
           "Oi, Eu sou a Carla e estou usando o plano Perca Mais há seis meses"
-        </h1>
-        <div className="carla-container border-bottom mb-3">
+        </h2>
+        <div className="carla-container border-bottom mb-3 p-3">
           <div className="carla-img shadow-lg">
             <img src="images/carla.webp" alt="Carla" />
           </div>
@@ -32,15 +29,26 @@ const Main = () => {
               Comecei quando atingi meu peso mais alto de todos os tempos, 93kg
               (tenho 1,72m), o que ligou um alerta para mim.
             </p>
-            <h2 className="fw-bold">
+            <h2 className="fs-5 fw-bold">
               SELECIONE O TIPO DE SEU PROGRAMA ANTI-INFLAMATÓRIO PARA COMEÇAR
             </h2>
-            <div>
-              <SingleChoice
-                nextPage="/dieta_anti-inflamatoria"
-                keyName="genero"
-                array={data}
-              />
+            <div
+              className="options-container text-center"
+              onClick={() =>
+                handleSaveData("/familiarizado", "genero", `${data[0].data}`)
+              }
+            >
+              <div className="options shadow-sm fw-bold">
+                {data[0].data} <img src={data[0].img} alt={data[0].img} />
+              </div>
+              <div
+                className="options shadow-sm fw-bold"
+                onClick={() =>
+                  handleSaveData("/familiarizado", "genero", `${data[1].data}`)
+                }
+              >
+                {data[1].data} <img src={data[1].img} alt={data[1].img} />
+              </div>
             </div>
           </div>
         </div>
@@ -70,14 +78,27 @@ const Main = () => {
             </p>
           </div>
           <div className="carla-col">
-            <h2 className="fw-bold">
+            <h2 className="fs-5 fw-bold">
               SELECIONE O TIPO DE SEU PROGRAMA ANTI-INFLAMATÓRIO PARA COMEÇAR
             </h2>
-            <SingleChoice
-              nextPage="/dieta_anti-inflamatoria"
-              keyName="genero"
-              array={data}
-            />
+            <div
+              className="options-container text-center"
+              onClick={() =>
+                handleSaveData("/familiarizado", "genero", `${data[0].data}`)
+              }
+            >
+              <div className="options shadow-sm fw-bold">
+                {data[0].data} <img src={data[0].img} alt={data[0].img} />
+              </div>
+              <div
+                className="options shadow-sm fw-bold"
+                onClick={() =>
+                  handleSaveData("/familiarizado", "genero", `${data[1].data}`)
+                }
+              >
+                {data[1].data} <img src={data[1].img} alt={data[1].img} />
+              </div>
+            </div>
           </div>
         </div>
       </main>
