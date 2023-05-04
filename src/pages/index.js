@@ -74,7 +74,7 @@ const Main = () => {
               SELECIONE O TIPO DE SEU PROGRAMA ANTI-INFLAMATÓRIO PARA COMEÇAR
             </h2>
             <SingleChoice
-              nextPage="/corpo_atual"
+              nextPage="/dieta_anti-inflamatoria"
               keyName="genero"
               array={data}
             />
