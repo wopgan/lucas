@@ -1,0 +1,40 @@
+.progressBar {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progressBar svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(90deg);
+}
+
+.progressBarBackground {
+  fill: none;
+  stroke: #a9e0dc;
+}
+
+.progressBarProgress {
+  fill: none;
+  stroke: #0aa59b;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.3s ease;
+}
+
+.progressBarText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: bold;
+  color: #02134f;
+}
+
+.progressBarText span {
+  font-size: 30px;
+}

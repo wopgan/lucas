@@ -23,7 +23,7 @@ const Imc = () => {
       JSON.parse(localStorage.getItem("corpo-desejado"))
     );
 
-    if (genero === "Masculino") {
+    if (genero === "Perda De Peso Para Homens") {
       switch (corpoAtual) {
         case "Regular":
           setImgAtual("images/info/men-now-regular.avif");

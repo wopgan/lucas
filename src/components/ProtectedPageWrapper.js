@@ -28,6 +28,7 @@ function ProtectedPageWrapper({ children }) {
     "/altura",
     "/peso",
     "/peso_alvo",
+    "/preparacao",
     "/resultado",
     "/perca_mais",
   ];

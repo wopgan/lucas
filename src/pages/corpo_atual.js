@@ -13,7 +13,7 @@ const CorpoAtual = () => {
   }, []);
 
   useEffect(() => {
-    if (gender === "Perda de Peso Para Homens") {
+    if (gender === "Perda De Peso Para Homens") {
       setData([
         { data: "Regular", img: "images/body-type/male/male-regular.webp" },
         {

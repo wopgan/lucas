@@ -9,7 +9,7 @@ const PesoAlvo = () => {
       <main className="main-container">
         <h1 className="fw-bold h1">Qual o peso que desejaria ter?</h1>
         <EnterData
-          nextPage="/resultado"
+          nextPage="/preparacao"
           keyName="peso-alvo"
           img="images/weight-loss.png"
           measure="kg"

@@ -3,10 +3,10 @@ import SingleChoice from "@/components/SingleChoice";
 
 const Main = () => {
   const data = [
-    { data: "Perda de Peso Para Homens", img: "images/gender/man.png" },
+    { data: "Perda De Peso Para Homens", img: "images/gender/man.png" },
     { data: "Perda De Peso Para Mulheres", img: "images/gender/woman.png" },
     {
-      data: "Perda de Peso Para Não-Binários",
+      data: "Perda De Peso Para Não-Binários",
       img: "images/gender/rainbow.png",
     },
   ];
