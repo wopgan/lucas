@@ -10,7 +10,7 @@ const Familiarizado = () => {
 
   return (
     <>
-      <ProgressBar progress="9%" />
+      <ProgressBar progress="4.5%" />
       <main className="main-container">
         <h1 className="fw-bold h1">
           Quão familiarizado você está com a inflamação do seu corpo e seus

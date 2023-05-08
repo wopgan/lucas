@@ -32,13 +32,13 @@ const Main = () => {
             <h2 className="fs-5 fw-bold">
               SELECIONE O TIPO DE SEU PROGRAMA ANTI-INFLAMATÓRIO PARA COMEÇAR
             </h2>
-            <div
-              className="options-container text-center"
-              onClick={() =>
-                handleSaveData("/familiarizado", "genero", `${data[0].data}`)
-              }
-            >
-              <div className="options shadow-sm fw-bold">
+            <div className="options-container text-center">
+              <div
+                className="options shadow-sm fw-bold"
+                onClick={() =>
+                  handleSaveData("/familiarizado", "genero", `${data[0].data}`)
+                }
+              >
                 {data[0].data} <img src={data[0].img} alt={data[0].img} />
               </div>
               <div
@@ -81,13 +81,13 @@ const Main = () => {
             <h2 className="fs-5 fw-bold">
               SELECIONE O TIPO DE SEU PROGRAMA ANTI-INFLAMATÓRIO PARA COMEÇAR
             </h2>
-            <div
-              className="options-container text-center"
-              onClick={() =>
-                handleSaveData("/familiarizado", "genero", `${data[0].data}`)
-              }
-            >
-              <div className="options shadow-sm fw-bold">
+            <div className="options-container text-center">
+              <div
+                className="options shadow-sm fw-bold"
+                onClick={() =>
+                  handleSaveData("/familiarizado", "genero", `${data[0].data}`)
+                }
+              >
                 {data[0].data} <img src={data[0].img} alt={data[0].img} />
               </div>
               <div
