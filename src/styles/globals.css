@@ -387,7 +387,7 @@ h3 {
 
 .title {
   align-self: flex-start;
-  line-height: 15px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 700px) {

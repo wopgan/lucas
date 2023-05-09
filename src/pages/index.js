@@ -4,8 +4,8 @@ import useSaveData from "../../hooks/useSaveData";
 const Main = () => {
   const { handleSaveData } = useSaveData();
   const data = [
-    { data: "Perda De Peso Para Homens", img: "images/gender/man.png?v=1" },
-    { data: "Perda De Peso Para Mulheres", img: "images/gender/woman.png?v=1" },
+    { data: "Perda De Peso Para Homens", img: "images/gender/man.png" },
+    { data: "Perda De Peso Para Mulheres", img: "images/gender/woman.png" },
   ];
 
   useEffect(() => {
@@ -22,7 +22,7 @@ const Main = () => {
         </h2>
         <div className="carla-container border-bottom mb-3 p-3">
           <div className="carla-img shadow-lg">
-            <img src="images/carla.webp?v=1" alt="Carla" />
+            <img src="images/carla.webp" alt="Carla" />
           </div>
           <div className="carla-col">
             <p className="fw-bold">
