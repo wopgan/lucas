@@ -30,7 +30,6 @@ function ProtectedPageWrapper({ children }) {
     "/peso_alvo",
     "/preparacao",
     "/resultado",
-    "/perca_mais",
   ];
 
   useEffect(() => {

@@ -4,8 +4,8 @@ import useSaveData from "../../hooks/useSaveData";
 const Main = () => {
   const { handleSaveData } = useSaveData();
   const data = [
-    { data: "Perda De Peso Para Homens", img: "images/gender/man.png" },
-    { data: "Perda De Peso Para Mulheres", img: "images/gender/woman.png" },
+    { data: "Perda De Peso Para Homens", img: "images/gender/man.png?v=1" },
+    { data: "Perda De Peso Para Mulheres", img: "images/gender/woman.png?v=1" },
   ];
 
   useEffect(() => {
@@ -22,15 +22,15 @@ const Main = () => {
         </h2>
         <div className="carla-container border-bottom mb-3 p-3">
           <div className="carla-img shadow-lg">
-            <img src="images/carla.webp" alt="Carla" />
+            <img src="images/carla.webp?v=1" alt="Carla" />
           </div>
           <div className="carla-col">
             <p className="fw-bold">
               Comecei quando atingi meu peso mais alto de todos os tempos, 93kg
               (tenho 1,72m), o que ligou um alerta para mim.
             </p>
-            <h2 className="fs-5 fw-bold">
-              SELECIONE O TIPO DE SEU PROGRAMA ANTI-INFLAMATÓRIO PARA COMEÇAR
+            <h2 className="fs-6 fw-bold">
+              Selecione Seu Sexo Para Dar Início Ao Seu Plano
             </h2>
             <div className="options-container text-center">
               <div
@@ -79,7 +79,7 @@ const Main = () => {
           </div>
           <div className="carla-col">
             <h2 className="fs-5 fw-bold">
-              SELECIONE O TIPO DE SEU PROGRAMA ANTI-INFLAMATÓRIO PARA COMEÇAR
+              Selecione Seu Sexo Para Dar Início Ao Seu Plano
             </h2>
             <div className="options-container text-center">
               <div

@@ -69,7 +69,7 @@ const Imc = () => {
   }, []);
 
   return (
-    <div className={styles.infoContainer}>
+    <div className={`${styles.infoContainer} rounded-3 shadow`}>
       <div className={styles.infoHeader}>
         <div className={styles.agora}>
           <h4 className="fw-bold">Agora</h4>

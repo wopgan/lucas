@@ -98,7 +98,10 @@ const Resultado = () => {
             </p>
           </div>
         </div>
-        <ContinueButton nextPage="#" label="Pegue já seu plano!" />
+        <ContinueButton
+          nextPage="https://pay.kiwify.com.br/cJccQ15"
+          label="Pegue já seu plano!"
+        />
         <h2 className="my-5 fw-bold">Seu perfil:</h2>
         <div className="profile">
           <div className="data text-secondary border border-1 rounded-3 shadow my-3">
@@ -132,16 +135,16 @@ const Resultado = () => {
         <Imc />
         <div className="levels text-secondary border border-1 rounded-3 shadow my-5">
           <div className="level p-2">
-            <p>Nível de stress e inflamação</p>
-            <img src="images/inflamation.png" alt="inflamação" />
+            <p className="fs-6">Nível de stress e inflamação</p>
+            <img src="images/GRAFICO1.webp" alt="inflamação" />
           </div>
           <div className="level p-2">
-            <p>Rigidez e dor corporal</p>
-            <img src="images/weight-level.png" alt="inflamação" />
+            <p className="fs-6">Rigidez e dor corporal</p>
+            <img src="images/MAGRO.webp" alt="inflamação" />
           </div>
           <div className="level p-2">
-            <p>Ansiedade, depressão e confusão mental</p>
-            <img src="images/anxiety.png" alt="inflamação" />
+            <p className="fs-6">Ansiedade, depressão e confusão mental</p>
+            <img src="images/BAIXO.webp" alt="inflamação" />
           </div>
         </div>
         <div className="recomendacoes-container my-5">
@@ -204,7 +207,7 @@ const Resultado = () => {
             <h2 className="fw-bold my-3">Estimativas de mudanças corporais</h2>
             <h3 className="my-3">Redução de peso corporal</h3>
             <img
-              src="images/img-17.svg"
+              src="images/corpo_.webp"
               alt="Corpo"
               className="border border-1 rounded-3 shadow p-3"
             />
@@ -226,25 +229,21 @@ const Resultado = () => {
       >
         <div className="inner-garantia">
           <span className="text-white title px-4 fs-3 fw-bold">
-            Seu plano de perda de peso
-          </span>
-          <br />
-          <span className="text-white title px-4 fs-3 fw-bold">
-            fácil de seguir
+            Seu plano super fácil para seguir!
           </span>
           <div className="garantia-first text-white fs-5">
             <div className="garantia-left d-flex flex-column align-items-start justify-content-center gap-3">
               <div className="d-flex flex-row align-items-center justify-content-start">
                 <img src="images/check.svg" alt="check" />
-                <span className="mx-2">Reduza a inflamação</span>
+                <span className="mx-2">Reduza sua inflamação</span>
               </div>
               <div className="d-flex flex-row align-items-center justify-content-start">
                 <img src="images/check.svg" alt="check" />
-                <span className="mx-2">Perca peso indesejado</span>
+                <span className="mx-2">Perca peso de forma saudável</span>
               </div>
               <div className="d-flex flex-row align-items-center justify-content-start">
                 <img src="images/check.svg" alt="check" />
-                <span className="mx-2">Adquira novos hábitos saudáveis</span>
+                <span className="mx-2">Forme novos hábitos</span>
               </div>
             </div>
             <div className="garantia-right">
@@ -252,7 +251,7 @@ const Resultado = () => {
             </div>
           </div>
           <h2 className="text-secondary fw-bold mb-5">
-            Dieta anti-inflamatória foi coberta por
+            Essa dieta anti-inflamatória foi aprovada e apresentada por:
           </h2>
           <div className="garantia-second mx-3">
             <img src="images/img-21.png" alt="newspaper" />
@@ -263,31 +262,39 @@ const Resultado = () => {
           <div className="garantia-third">
             <div className="text text-secondary p-2 fs-5">
               <p>
-                “I’ve been there. I was anxious my body weight and inflammation
-                were going to stay with me forever, making me unable to live
-                without constant fatigue, brain fog, and chronic pain.
+                "Eu vivia em um peso que não era ideal para mim, estava sempre
+                ansiosa pois meu corpo vivia inflamado e mesmo que não
+                percebesse, isso me causava diversos malefícios. Era comum na
+                minha rotina a fadiga constante, esquecimento e dores de cabeça.
               </p>
               <p>
-                Together, we’ll use meal plans, workout plans, and other
-                techniques designed for gradual weight loss and elimination of
-                inflammatory symptoms so you can enjoy the kind of vibrant,
-                total health you’ve always wanted.
+                Conheci o Plano nutricional anti-inflamatorio Perca Mais e
+                gracas a suas técnicas e exelentes profissionais consegui
+                alcançar o peso ideal para o meu corpo e eliminei os sintomas
+                que atrapalhavam a minha rotina.
               </p>
               <p>
-                {" "}
-                Our nutritionists and health coaches work around the clock to
-                prepare the most effective plans to support your body and keep
-                you glowing, fit, and full of energy.{" "}
+                Tenho Meu plano nutricional Atualizado todos os meses por
+                excelentes profissionais de saúde, que visam não só a estética
+                corporal, mas principalmente a saúde, que é muito importante na
+                vida de todos
               </p>
               <p>
-                Try it out – you have my personal guarantee it’s going to work.”
+                Recomendo que todos experimentem pelo menos um mês do plano. Ele
+                realmente mudou a minha vida."
               </p>
-              <p>Ashley Daniels</p>
-              <p>Autoimmune Expert, Health & Nutrition Coach</p>
+              <p>
+                Aline Silva{" "}
+                <img src="images/assinatura1.png" alt="assinatura" />
+              </p>
+              <p>Nutricionista especialista em saúde e nutrição</p>
             </div>
             <img src="images/ashley.jpg" alt="Ashley" className="m-3" />
           </div>
-          <ContinueButton nextPage="#" label="Pegue já seu plano!" />
+          <ContinueButton
+            nextPage="https://pay.kiwify.com.br/cJccQ15"
+            label="Pegue já seu plano!"
+          />
         </div>
       </div>
     </ProtectedPageWrapper>
