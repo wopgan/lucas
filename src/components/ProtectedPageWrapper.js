@@ -39,7 +39,7 @@ function ProtectedPageWrapper({ children }) {
 
     if (!localStorage.getItem("id") || referenceIndex !== 1) {
       localStorage.clear();
-      router.push("/");
+      router.replace("/");
     }
   }, []);
 
