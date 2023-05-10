@@ -15,7 +15,7 @@ const Preparacao = () => {
   return (
     <ProtectedPageWrapper>
       <header className="header-resultado p-2">
-        <img src="images/logo.png" alt="Perca Mais" />
+        <img src="images/logo/logo.png" alt="Perca Mais" />
       </header>
       <main className="main-container d-flex flex-column align-items-center">
         <Loader progress={progress} setProgress={setProgress} />

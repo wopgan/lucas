@@ -14,22 +14,27 @@ const Main = () => {
   return (
     <>
       <header className="header">
-        <img src="images/logo.png" alt="PercaMais" />
+        <img src="images/logo/logo.png" alt="PercaMais" />
       </header>
       <main className="index-container">
         <h2 className="fw-bold text-center m-4">
           "Oi, Eu sou a Carla e estou usando o plano Perca Mais há seis meses"
         </h2>
         <div className="carla-container border-bottom mb-3 p-3">
-          <div className="carla-img shadow-lg">
-            <img src="images/carla.webp" alt="Carla" />
-          </div>
-          <div className="carla-col">
+          <div className="carla-img ">
             <p className="fw-bold">
               Comecei quando atingi meu peso mais alto de todos os tempos, 93kg
               (tenho 1,72m), o que ligou um alerta para mim.
             </p>
-            <h2 className="fs-6 fw-bold">
+            <img
+              src="images/inicio/carla.webp"
+              alt="Carla"
+              className="shadow-lg"
+            />
+          </div>
+
+          <div className="carla-col">
+            <h2 className="fw-bold">
               Selecione Seu Sexo Para Dar Início Ao Seu Plano
             </h2>
             <div className="options-container text-center">
@@ -50,6 +55,10 @@ const Main = () => {
                 {data[1].data} <img src={data[1].img} alt={data[1].img} />
               </div>
             </div>
+            <p className="fw-bold text-center">
+              Receba seu plano respondendo esse quiz de 60 segundos aprovado por
+              especialistas
+            </p>
           </div>
         </div>
         <div className="carla-depoimento border-bottom mb-3">
@@ -78,7 +87,7 @@ const Main = () => {
             </p>
           </div>
           <div className="carla-col">
-            <h2 className="fs-5 fw-bold">
+            <h2 className=" fw-bold">
               Selecione Seu Sexo Para Dar Início Ao Seu Plano
             </h2>
             <div className="options-container text-center">

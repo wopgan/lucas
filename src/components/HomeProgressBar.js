@@ -6,7 +6,7 @@ const HomeProgressBar = ({ progress }) => {
   return (
     <header className={styles.header}>
       <div className={styles.titleBar}>
-        <img src="images/logo.png" alt="Perca Mais" />
+        <img src="images/logo/logo.png" alt="Perca Mais" />
       </div>
       <div className={styles.progressContainer}>
         <div className={styles.progress} style={{ width: progress }}></div>

@@ -11,7 +11,7 @@ const PesoAlvo = () => {
         <EnterData
           nextPage="/preparacao"
           keyName="peso-alvo"
-          img="images/weight-loss.png"
+          img="images/peso-alvo/weight-loss.png"
           measure="kg"
         />
       </main>

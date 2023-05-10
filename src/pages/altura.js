@@ -7,11 +7,11 @@ const Altura = () => {
     <ProtectedPageWrapper>
       <ProgressBar progress="95.5%" />
       <main className="main-container">
-        <h1 className="fw-bold h1">Qual é a sua altura?</h1>
+        <h1 className="fw-bold h1">Qual é a sua altura aproximadamente?</h1>
         <EnterData
           nextPage="/peso"
           keyName="altura"
-          img="images/height.png"
+          img="images/altura/height.png"
           measure="cm"
         />
       </main>
