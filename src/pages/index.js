@@ -55,28 +55,31 @@ const Main = () => {
                 {data[1].data} <img src={data[1].img} alt={data[1].img} />
               </div>
             </div>
-            <p className="fw-bold text-center">
-              Receba seu plano respondendo esse quiz de 60 segundos aprovado por
-              especialistas
-            </p>
+                
           </div>
         </div>
         <div className="carla-depoimento border-bottom mb-3">
           <p>
-            Eu estava sentindo dores nas articulações e fadiga constante devido
-            aos meus problemas de inflamação e estava preocupada que fosse
-            apenas mais uma dieta para perda de peso. Mas o plano era tão fácil
-            de seguir que me apaixonei na hora.
+            <span className="fw-bold">" </span>Eu estava sentindo dores nas
+            articulações e fadiga constante devido aos meus problemas de
+            inflamação e estava preocupada que fosse apenas mais uma dieta para
+            perda de peso. Mas o plano era tão fácil de seguir que me apaixonei
+            na hora.
           </p>
           <p>
             Ele eliminou completamente meus sintomas inflamatórios e me ajudou a
             definir metas realistas de perda de peso para o próximo mês.
           </p>
           <p className="fw-bold">
-            Já perdi 27 quilos de forma saúdavel, graças ao plano.
+            Já perdi 27 quilos de forma saúdavel, graças ao plano. "
           </p>
         </div>
-        <div className="carla-container">
+
+        <div className="carla-img pb-1">
+            <img src="images/inicio/ppr.webp" className="shadow-lg"/>
+        </div>
+
+        <div className="carla-container mt-3">
           <div className="carla-col">
             <p className="fw-bold text-center">
               Receba seu plano respondendo esse quiz de 60 segundos aprovado por
